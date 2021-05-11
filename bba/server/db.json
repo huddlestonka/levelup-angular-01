@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "21789f40-b0fb-4aa6-8e88-376b4edfmnhy",
+      "title": "Software Engineer",
+      "role": "user",
+      "description": "Pending",
+      "firstName": "Kaleb",
+      "lastName": "Huddleston",
+      "email": "kaleb@users.com",
+      "password": "insecure",
+      "profilePic": "https://s3.amazonaws.com/uifaces/faces/twitter/baires/128.jpg"
+    },
+    {
+      "id": "21789f40-b0fb-4aa6-8e88-376b4edf0ldd",
+      "title": "Engineering Manager",
+      "role": "manager",
+      "description": "Pending.",
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "email": "bob@users.com",
+      "password": "insecure",
+      "profilePic": "https://s3.amazonaws.com/uifaces/faces/twitter/teeragit/128.jpg"
+    },
+    {
+      "id": "21789f40-b0fb-4aa6-8e88-376b4edf876y",
+      "title": "Nascar Driver",
+      "role": "user",
+      "description": "Pending",
+      "firstName": "Bobby",
+      "lastName": "Hendrix",
+      "email": "bobby@users.com",
+      "password": "insecure",
+      "profilePic": "https://s3.amazonaws.com/uifaces/faces/twitter/baires/128.jpg"
+    },
+    {
+      "id": "a894fce2-593c-4d3e-a594-43af537bec09",
+      "role": "",
+      "title": "App Dev",
+      "description": "",
+      "firstName": "Skippy",
+      "lastName": "Lagume",
+      "email": "skippy@users.com",
+      "password": "Skippy",
+      "profilePic": ""
+    }
+  ]
+}

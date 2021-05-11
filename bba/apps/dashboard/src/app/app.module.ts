@@ -8,10 +8,29 @@ import { UsersComponent } from './users/users.component';
 import { UserDetailsComponent } from './users/user-details/user-details.component';
 import { UsersListComponent } from './users/users-list/users-list.component';
 import { HomeComponent } from './home/home.component';
+import { FormsModule } from '@angular/forms';
+import { RoutingModule } from './routing.module';
+import { MaterialModule } from '@bba/material';
+import { CoreStateModule } from '@bba/core-state';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [AppComponent, UsersComponent, UserDetailsComponent, UsersListComponent, HomeComponent],
-  imports: [BrowserModule, BrowserAnimationsModule, StoreModule.forRoot({}, {})],
+  declarations: [
+    AppComponent,
+    UsersComponent,
+    UserDetailsComponent,
+    UsersListComponent,
+    HomeComponent,
+  ],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    RoutingModule,
+    MaterialModule,
+    CoreStateModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
