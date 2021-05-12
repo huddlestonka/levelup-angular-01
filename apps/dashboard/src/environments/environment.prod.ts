@@ -1,4 +1,4 @@
 export const environment = {
-  apiEndpoint: 'http://localhost:3000/',
+  apiEndpoint: 'https://levelup-angular-01-users.herokuapp.com/',
   production: true,
 };
