@@ -24,6 +24,10 @@ Specifically, this dashboard app features CRUD functionality on a User entity -
 }
 ```
 
+## See It Live
+
+[Visit Users Dashboard](https://levelup-angular-01-users.surge.sh/users)
+
 ## Getting Started
 
 Run `npm install`.
